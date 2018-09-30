@@ -1,0 +1,32 @@
+{
+  "name": "mongocracked",
+  "version": "1.0.0",
+  "description": "A mongodb scraper of cracked.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chriskelsey/mongoCracked.git"
+  },
+  "keywords": [
+    "mongodb",
+    "express",
+    "handlebars",
+    "cracked.com"
+  ],
+  "author": "Christopher Kelsey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chriskelsey/mongoCracked/issues"
+  },
+  "homepage": "https://github.com/chriskelsey/mongoCracked#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.17"
+  }
+}
